@@ -1,0 +1,38 @@
+baseURL = "https://www.thetucks.com"
+languageCode = "en-uk"
+title = "A menagerie of technical peccadiloes"
+author = "Steve Tuck"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+enableRobotsTXT = true
+Paginate = 12
+
+# theme = "github.com/tetsuyainfra/blackburn"
+# theme = "github.com/janraasch/hugo-bearblog"
+# tried all these and didn't like them
+# theme = "github.com/wangchucheng/hugo-eureka"
+theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+# theme = "github.com/siegerts/hugo-theme-basic"
+# theme = "github.com/victoriadrake/hugo-theme-introduction"
+uglyurls = true
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "Home"
+    url = "/"
+
+[params]
+  facebook = "https://www.facebook.com/tuck1s/"
+  twitter = "https://www.twitter.com/tuck1s/"
+  linkedin = "https://www.linkedin.com/in/steventuck/"
+  github = "https://www.github.com/tuck1s/"
+  stackoverflow = "https://stackoverflow.com/users/8545455/steve"
+  featured_image = "/beeb.png"
+  favicon = "/favicon.ico"

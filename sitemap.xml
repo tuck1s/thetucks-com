@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.thetucks.com/tags/8bit.html</loc>
-    <lastmod>2020-03-15T20:51:32+00:00</lastmod>
+    <loc>https://www.thetucks.com/</loc>
+    <lastmod>2020-12-30T18:22:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.thetucks.com/</loc>
+    <loc>https://www.thetucks.com/posts/amazon-polly.html</loc>
+    <lastmod>2020-12-30T18:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thetucks.com/posts.html</loc>
+    <lastmod>2020-12-30T18:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thetucks.com/tags/speech.html</loc>
+    <lastmod>2020-12-30T18:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thetucks.com/tags.html</loc>
+    <lastmod>2020-12-30T18:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thetucks.com/tags/8bit.html</loc>
     <lastmod>2020-03-15T20:51:32+00:00</lastmod>
   </url>
   
@@ -19,16 +39,6 @@
   
   <url>
     <loc>https://www.thetucks.com/tags/computer-hardware.html</loc>
-    <lastmod>2020-03-15T20:51:32+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.thetucks.com/posts.html</loc>
-    <lastmod>2020-03-15T20:51:32+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.thetucks.com/tags.html</loc>
     <lastmod>2020-03-15T20:51:32+00:00</lastmod>
   </url>
   
@@ -145,14 +155,6 @@
   <url>
     <loc>https://www.thetucks.com/posts/acer-t135-with-and-new-sata-drives-a-snag.html</loc>
     <lastmod>2008-12-07T00:29:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.thetucks.com/posts/amazon-polly.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.thetucks.com/tags/speech.html</loc>
   </url>
   
   <url>

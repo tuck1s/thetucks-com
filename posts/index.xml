@@ -6,7 +6,19 @@
     <description>Recent content in Posts on A menagerie of technical peccadiloes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 15 Mar 2020 20:51:32 +0000</lastBuildDate><atom:link href="https://www.thetucks.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 18:22:00 +0000</lastBuildDate><atom:link href="https://www.thetucks.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon &#34;Polly&#34;</title>
+      <link>https://www.thetucks.com/posts/amazon-polly.html</link>
+      <pubDate>Wed, 30 Dec 2020 18:22:00 +0000</pubDate>
+      
+      <guid>https://www.thetucks.com/posts/amazon-polly.html</guid>
+      <description>The voices (and tech) used in Amazon Alexa, are available for anyone to play with, free of charge - search for Amazon Polly.
+Update: Here&amp;rsquo;s the voice of &amp;ldquo;Brian&amp;rdquo; (British English) reading Lewis Carroll with the &amp;ldquo;Neural&amp;rdquo; engine setting eanbled.
+Jabberwocky Poem.
+Try Polly yourself here.</description>
+    </item>
+    
     <item>
       <title>BBC Micro repairs</title>
       <link>https://www.thetucks.com/posts/bbc-micro-repairs.html</link>
@@ -178,18 +190,6 @@ So I created 1 large partition for the system and restored onto it. Did this wor
       <description>Just came across a nasty little snag with SATA disk drives. I thought I&amp;rsquo;d write it up, in case you run into something similar.
 One of our family computers is an Acer Aspire T135, around 3 years old now. The 80GB hard drive is getting rather full and slow. Time for an upgrade.
 Step 1 - check what the existing PC can do. It has a spare SATA connection on the motherboard, so that seems like the best way to go.</description>
-    </item>
-    
-    <item>
-      <title>Amazon &#34;Polly&#34;</title>
-      <link>https://www.thetucks.com/posts/amazon-polly.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.thetucks.com/posts/amazon-polly.html</guid>
-      <description>The voices (and tech) used in Amazon Alexa, are available for anyone to play with, free of charge - search for Amazon Polly.
-Update: Here&amp;rsquo;s the voice of &amp;ldquo;Brian&amp;rdquo; (British English) reading Lewis Carroll with the &amp;ldquo;Neural&amp;rdquo; engine setting eanbled.
-Jabberwocky Poem.
-Try Polly yourself here.</description>
     </item>
     
   </channel>

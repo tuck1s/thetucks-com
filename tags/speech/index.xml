@@ -5,17 +5,17 @@
     <link>https://www.thetucks.com/tags/speech.html</link>
     <description>Recent content in speech on A menagerie of technical peccadiloes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <lastBuildDate>Wed, 19 Apr 2017 18:17:00 +0000</lastBuildDate><atom:link href="https://www.thetucks.com/tags/speech/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language><atom:link href="https://www.thetucks.com/tags/speech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon &#34;Polly&#34;</title>
       <link>https://www.thetucks.com/posts/amazon-polly.html</link>
-      <pubDate>Wed, 19 Apr 2017 18:17:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thetucks.com/posts/amazon-polly.html</guid>
-      <description>The voices (and tech) used in Amazon Alexa, are available for anyone to play with, free of charge - search for Amazon Polly. Here&amp;rsquo;s the voice of &amp;ldquo;Geraint&amp;rdquo; (Welsh English) reading Lewis Carroll:
-https://www.poetryfoundation.org/poems-and-poets/poems/detail/42916
-Try Polly here: https://eu-west-1.console.aws.amazon.com/polly/home/SynthesizeSpeech</description>
+      <description>The voices (and tech) used in Amazon Alexa, are available for anyone to play with, free of charge - search for Amazon Polly.
+Update: Here&amp;rsquo;s the voice of &amp;ldquo;Brian&amp;rdquo; (British English) reading Lewis Carroll with the &amp;ldquo;Neural&amp;rdquo; engine setting eanbled.
+Jabberwocky Poem.
+Try Polly yourself here.</description>
     </item>
     
   </channel>

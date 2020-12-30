@@ -62,15 +62,6 @@
     </item>
     
     <item>
-      <title>speech</title>
-      <link>https://www.thetucks.com/tags/speech.html</link>
-      <pubDate>Wed, 19 Apr 2017 18:17:00 +0000</pubDate>
-      
-      <guid>https://www.thetucks.com/tags/speech.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>analog</title>
       <link>https://www.thetucks.com/tags/analog.html</link>
       <pubDate>Wed, 12 Oct 2016 16:19:00 +0000</pubDate>
@@ -103,6 +94,15 @@
       <pubDate>Thu, 10 Oct 2013 21:24:00 +0000</pubDate>
       
       <guid>https://www.thetucks.com/tags/bass.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speech</title>
+      <link>https://www.thetucks.com/tags/speech.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thetucks.com/tags/speech.html</guid>
       <description></description>
     </item>
     

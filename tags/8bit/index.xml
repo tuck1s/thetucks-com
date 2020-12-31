@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8bit on A menagerie of technical peccadiloes</title>
-    <link>https://www.thetucks.com/tags/8bit.html</link>
+    <link>https://thetucks.com/tags/8bit.html</link>
     <description>Recent content in 8bit on A menagerie of technical peccadiloes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 15 Mar 2020 20:51:32 +0000</lastBuildDate><atom:link href="https://www.thetucks.com/tags/8bit/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Steve Tuck</copyright>
+    <lastBuildDate>Sun, 15 Mar 2020 20:51:32 +0000</lastBuildDate><atom:link href="https://thetucks.com/tags/8bit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BBC Micro repairs</title>
-      <link>https://www.thetucks.com/posts/bbc-micro-repairs.html</link>
+      <link>https://thetucks.com/posts/bbc-micro-repairs.html</link>
       <pubDate>Sun, 15 Mar 2020 20:51:32 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/posts/bbc-micro-repairs.html</guid>
+      <guid>https://thetucks.com/posts/bbc-micro-repairs.html</guid>
       <description>I seem to have collected a few old BBC Micros - approx 1983 vintage, so coming up to 40 years old.
 Before powering them up, I took the advice of Retroclinic and replaced the power supply X2 capacitors that are known to fail (damaging the power supply in the process). Retroclinic can also be found on eBay.
 Rather than use an old-style CRT, a Samsung LCD TV provides a much steadier picture, using an RGB to SCART lead such as this.</description>

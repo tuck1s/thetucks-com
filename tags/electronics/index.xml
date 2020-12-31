@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>electronics on A menagerie of technical peccadiloes</title>
-    <link>https://www.thetucks.com/tags/electronics.html</link>
+    <link>https://thetucks.com/tags/electronics.html</link>
     <description>Recent content in electronics on A menagerie of technical peccadiloes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 03 Jul 2015 17:40:00 +0000</lastBuildDate><atom:link href="https://www.thetucks.com/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Steve Tuck</copyright>
+    <lastBuildDate>Fri, 03 Jul 2015 17:40:00 +0000</lastBuildDate><atom:link href="https://thetucks.com/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple electronic water leak detector</title>
-      <link>https://www.thetucks.com/posts/simple-electronic-water-leak-detector.html</link>
+      <link>https://thetucks.com/posts/simple-electronic-water-leak-detector.html</link>
       <pubDate>Fri, 03 Jul 2015 17:40:00 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/posts/simple-electronic-water-leak-detector.html</guid>
+      <guid>https://thetucks.com/posts/simple-electronic-water-leak-detector.html</guid>
       <description>The following circuit is a very simple water leak detector, which I made 25+ years ago (!!) following my fiancée having a washing machine go wrong and leak all over her apartment.
 The circuit is not ideal - there are better designs out there. It was built with &amp;lsquo;what I had in my scrapbox at the time&amp;rsquo;. It&amp;rsquo;s purely analog, relying on the gain of the Darlington pair to provide reasonable on/off behaviour.</description>
     </item>

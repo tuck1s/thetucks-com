@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on A menagerie of technical peccadiloes</title>
-    <link>https://www.thetucks.com/topics.html</link>
+    <link>https://thetucks.com/topics.html</link>
     <description>Recent content in Topics on A menagerie of technical peccadiloes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="https://www.thetucks.com/topics/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language>
+    <copyright>Steve Tuck</copyright><atom:link href="https://thetucks.com/topics/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

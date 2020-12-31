@@ -2,107 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A menagerie of technical peccadiloes</title>
-    <link>https://www.thetucks.com/tags.html</link>
+    <link>https://thetucks.com/tags.html</link>
     <description>Recent content in Tags on A menagerie of technical peccadiloes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 30 Dec 2020 18:22:00 +0000</lastBuildDate><atom:link href="https://www.thetucks.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Steve Tuck</copyright>
+    <lastBuildDate>Wed, 30 Dec 2020 18:22:00 +0000</lastBuildDate><atom:link href="https://thetucks.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>speech</title>
-      <link>https://www.thetucks.com/tags/speech.html</link>
+      <link>https://thetucks.com/tags/speech.html</link>
       <pubDate>Wed, 30 Dec 2020 18:22:00 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/speech.html</guid>
+      <guid>https://thetucks.com/tags/speech.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>8bit</title>
-      <link>https://www.thetucks.com/tags/8bit.html</link>
+      <link>https://thetucks.com/tags/8bit.html</link>
       <pubDate>Sun, 15 Mar 2020 20:51:32 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/8bit.html</guid>
+      <guid>https://thetucks.com/tags/8bit.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>computer-hardware</title>
-      <link>https://www.thetucks.com/tags/computer-hardware.html</link>
+      <link>https://thetucks.com/tags/computer-hardware.html</link>
       <pubDate>Sun, 15 Mar 2020 20:51:32 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/computer-hardware.html</guid>
+      <guid>https://thetucks.com/tags/computer-hardware.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>arithmetic</title>
-      <link>https://www.thetucks.com/tags/arithmetic.html</link>
+      <link>https://thetucks.com/tags/arithmetic.html</link>
       <pubDate>Sun, 01 Apr 2018 16:04:26 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/arithmetic.html</guid>
+      <guid>https://thetucks.com/tags/arithmetic.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://www.thetucks.com/tags/python.html</link>
+      <link>https://thetucks.com/tags/python.html</link>
       <pubDate>Sun, 01 Apr 2018 16:04:26 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/python.html</guid>
+      <guid>https://thetucks.com/tags/python.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>swift</title>
-      <link>https://www.thetucks.com/tags/swift.html</link>
+      <link>https://thetucks.com/tags/swift.html</link>
       <pubDate>Sun, 01 Apr 2018 16:04:26 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/swift.html</guid>
+      <guid>https://thetucks.com/tags/swift.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows-10</title>
-      <link>https://www.thetucks.com/tags/windows-10.html</link>
+      <link>https://thetucks.com/tags/windows-10.html</link>
       <pubDate>Tue, 10 Oct 2017 12:31:47 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/windows-10.html</guid>
+      <guid>https://thetucks.com/tags/windows-10.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>analog</title>
-      <link>https://www.thetucks.com/tags/analog.html</link>
+      <link>https://thetucks.com/tags/analog.html</link>
       <pubDate>Wed, 12 Oct 2016 16:19:00 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/analog.html</guid>
+      <guid>https://thetucks.com/tags/analog.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>digital-audio</title>
-      <link>https://www.thetucks.com/tags/digital-audio.html</link>
+      <link>https://thetucks.com/tags/digital-audio.html</link>
       <pubDate>Mon, 23 Nov 2015 16:57:00 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/digital-audio.html</guid>
+      <guid>https://thetucks.com/tags/digital-audio.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>electronics</title>
-      <link>https://www.thetucks.com/tags/electronics.html</link>
+      <link>https://thetucks.com/tags/electronics.html</link>
       <pubDate>Fri, 03 Jul 2015 17:40:00 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/electronics.html</guid>
+      <guid>https://thetucks.com/tags/electronics.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>bass</title>
-      <link>https://www.thetucks.com/tags/bass.html</link>
+      <link>https://thetucks.com/tags/bass.html</link>
       <pubDate>Thu, 10 Oct 2013 21:24:00 +0000</pubDate>
       
-      <guid>https://www.thetucks.com/tags/bass.html</guid>
+      <guid>https://thetucks.com/tags/bass.html</guid>
       <description></description>
     </item>
     

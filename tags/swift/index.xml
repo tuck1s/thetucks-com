@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 01 Apr 2018 16:04:26 +0000</lastBuildDate><atom:link href="https://thetucks.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Epic Number Battles of History: Swift 3 vs Python</title>
-      <link>https://thetucks.com/posts/epic-number-battles-of-history-swift-3-vs-python.html</link>
+      <link>https://thetucks.com/post/epic-number-battles-of-history-swift-3-vs-python.html</link>
       <pubDate>Sun, 01 Apr 2018 16:04:26 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/epic-number-battles-of-history-swift-3-vs-python.html</guid>
+      <guid>https://thetucks.com/post/epic-number-battles-of-history-swift-3-vs-python.html</guid>
       <description>Swift 3 has a &amp;ldquo;decimal&amp;rdquo; number type that can represent values such as 0.3 that are inexactly represented in Double or Float types. According to this article:
  An instance can represent any number that can be expressed as mantissa x 10^exponent where mantissa is a decimal integer up to 38 digits long, and exponent is an integer from –128 through 127.
  Note this is not the same as Python&amp;rsquo;s arbitrary-precision integer arithmetic.</description>

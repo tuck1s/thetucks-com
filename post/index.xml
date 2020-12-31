@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on A menagerie of technical peccadillos</title>
-    <link>https://thetucks.com/posts.html</link>
+    <link>https://thetucks.com/post.html</link>
     <description>Recent content in Posts on A menagerie of technical peccadillos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Steve Tuck</copyright>
-    <lastBuildDate>Wed, 30 Dec 2020 18:22:00 +0000</lastBuildDate><atom:link href="https://thetucks.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 18:22:00 +0000</lastBuildDate><atom:link href="https://thetucks.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon &#34;Polly&#34;</title>
-      <link>https://thetucks.com/posts/amazon-polly.html</link>
+      <link>https://thetucks.com/post/amazon-polly.html</link>
       <pubDate>Wed, 30 Dec 2020 18:22:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/amazon-polly.html</guid>
+      <guid>https://thetucks.com/post/amazon-polly.html</guid>
       <description>The voices (and tech) used in Amazon Alexa, are available for anyone to play with, free of charge - search for Amazon Polly.
 Update: Here&amp;rsquo;s the voice of &amp;ldquo;Brian&amp;rdquo; (British English) reading Lewis Carroll with the &amp;ldquo;Neural&amp;rdquo; engine setting eanbled.
 Jabberwocky Poem.
@@ -22,10 +22,10 @@ Try Polly yourself here.</description>
     
     <item>
       <title>BBC Micro repairs</title>
-      <link>https://thetucks.com/posts/bbc-micro-repairs.html</link>
+      <link>https://thetucks.com/post/bbc-micro-repairs.html</link>
       <pubDate>Sun, 15 Mar 2020 20:51:32 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/bbc-micro-repairs.html</guid>
+      <guid>https://thetucks.com/post/bbc-micro-repairs.html</guid>
       <description>I seem to have collected a few old BBC Micros - approx 1983 vintage, so coming up to 40 years old.
 Before powering them up, I took the advice of Retroclinic and replaced the power supply X2 capacitors that are known to fail (damaging the power supply in the process). Retroclinic can also be found on eBay.
 Rather than use an old-style CRT, a Samsung LCD TV provides a much steadier picture, using an RGB to SCART lead such as this.</description>
@@ -33,10 +33,10 @@ Rather than use an old-style CRT, a Samsung LCD TV provides a much steadier pict
     
     <item>
       <title>Epic Number Battles of History: Swift 3 vs Python</title>
-      <link>https://thetucks.com/posts/epic-number-battles-of-history-swift-3-vs-python.html</link>
+      <link>https://thetucks.com/post/epic-number-battles-of-history-swift-3-vs-python.html</link>
       <pubDate>Sun, 01 Apr 2018 16:04:26 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/epic-number-battles-of-history-swift-3-vs-python.html</guid>
+      <guid>https://thetucks.com/post/epic-number-battles-of-history-swift-3-vs-python.html</guid>
       <description>Swift 3 has a &amp;ldquo;decimal&amp;rdquo; number type that can represent values such as 0.3 that are inexactly represented in Double or Float types. According to this article:
  An instance can represent any number that can be expressed as mantissa x 10^exponent where mantissa is a decimal integer up to 38 digits long, and exponent is an integer from –128 through 127.
  Note this is not the same as Python&amp;rsquo;s arbitrary-precision integer arithmetic.</description>
@@ -44,10 +44,10 @@ Rather than use an old-style CRT, a Samsung LCD TV provides a much steadier pict
     
     <item>
       <title>Windows 10 Settings - which one?</title>
-      <link>https://thetucks.com/posts/windows-10-settings-which-one.html</link>
+      <link>https://thetucks.com/post/windows-10-settings-which-one.html</link>
       <pubDate>Tue, 10 Oct 2017 12:31:47 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/windows-10-settings-which-one.html</guid>
+      <guid>https://thetucks.com/post/windows-10-settings-which-one.html</guid>
       <description>If you go to the search bar in Windows 10, and type &amp;ldquo;settings&amp;rdquo; - there are now at least three different places you might end up:
 The one on the left is &amp;ldquo;System Information&amp;rdquo;. It&amp;rsquo;s been around a while. You&amp;rsquo;ll notice it reports &amp;ldquo;version&amp;rdquo; as 10.0.15063.
 Top right, you get to from the classic Windows control panel / System. It shows we are version 10, but gives no other information.</description>
@@ -55,10 +55,10 @@ Top right, you get to from the classic Windows control panel / System. It shows 
     
     <item>
       <title>Shure wireless in-ear monitoring system</title>
-      <link>https://thetucks.com/posts/shure-wireless-in-ear-monitoring-system.html</link>
+      <link>https://thetucks.com/post/shure-wireless-in-ear-monitoring-system.html</link>
       <pubDate>Wed, 12 Oct 2016 16:19:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/shure-wireless-in-ear-monitoring-system.html</guid>
+      <guid>https://thetucks.com/post/shure-wireless-in-ear-monitoring-system.html</guid>
       <description>A friend lent me their Shure PSM300 P3T in-ear monitoring system today. This is a top-of-the-line piece of kit for weekend-warrior type bands, costing over £600 for just one monitor mix.
 http://www.shure.com/americas/products/personal-monitor-systems/psm-300-stereo-personal-monitor-system/p3t-half-rack-single-channel-wireless-transmitter
 Turns out that the actual RF signal being transmitted is straightforward analog FM. A £10 USB TV stick and the free SDR# software http://www.rtl-sdr.com/rtl-sdr-quick-start-guide/ can decode the signal and play it out of the sound card output in stereo.</description>
@@ -66,10 +66,10 @@ Turns out that the actual RF signal being transmitted is straightforward analog 
     
     <item>
       <title>Differential line receiver for Behringer Ultranet</title>
-      <link>https://thetucks.com/posts/differential-line-receiver-for-behringer-ultranet.html</link>
+      <link>https://thetucks.com/post/differential-line-receiver-for-behringer-ultranet.html</link>
       <pubDate>Mon, 23 Nov 2015 16:57:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/differential-line-receiver-for-behringer-ultranet.html</guid>
+      <guid>https://thetucks.com/post/differential-line-receiver-for-behringer-ultranet.html</guid>
       <description>Prototype receiver circuit based on AM26LV32 chip:
 The MagJack - a Bel Stewart SI-52008-F has datasheet here: http://www.farnell.com/datasheets/1731561.pdf
 The IC cleans up the edges of the incoming signals.
@@ -78,10 +78,10 @@ With some level-shifting and AC coupling, the signals are OK to pass into an SPD
     
     <item>
       <title>XMOS StartKit - write performance of Sandisk memory card</title>
-      <link>https://thetucks.com/posts/xmos-startkit-write-performance-of-sandisk-memory-card.html</link>
+      <link>https://thetucks.com/post/xmos-startkit-write-performance-of-sandisk-memory-card.html</link>
       <pubDate>Mon, 07 Sep 2015 22:26:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/xmos-startkit-write-performance-of-sandisk-memory-card.html</guid>
+      <guid>https://thetucks.com/post/xmos-startkit-write-performance-of-sandisk-memory-card.html</guid>
       <description>Here&amp;rsquo;s a graph showing the write performance to a Sandisk Class 10 memory card.
 The reason for the sharp dips in performance, are that the FAT filing system has to go off and allocate a new cluster every N writes. For example 512 byte sectors, 32Kbyte clusters, means a new cluster is needed every 64 writes.
 Another factor on the XMOS board is whether the code is running in &amp;lsquo;debug&amp;rsquo; or &amp;lsquo;release&amp;rsquo; mode.</description>
@@ -89,10 +89,10 @@ Another factor on the XMOS board is whether the code is running in &amp;lsquo;de
     
     <item>
       <title>XMOS StartKit - reading and writing to SD card</title>
-      <link>https://thetucks.com/posts/xmos-startkit-reading-and-writing-to-sd-card.html</link>
+      <link>https://thetucks.com/post/xmos-startkit-reading-and-writing-to-sd-card.html</link>
       <pubDate>Mon, 31 Aug 2015 23:08:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/xmos-startkit-reading-and-writing-to-sd-card.html</guid>
+      <guid>https://thetucks.com/post/xmos-startkit-reading-and-writing-to-sd-card.html</guid>
       <description>Being able to read/write information from an SD card is probably the easiest way to get large amounts of non-volatile storage into an embedded project. I&amp;rsquo;m using XMOS StartKit, with the code from here
 The card reader is a part from Wurth Elektronik, Farnell / CPC part number CN18143 available here.
 The data and clock lines have 120 ohm series resistors, as this can help to absorb transmission-line reflections on the connecting wires (even though they are fairly short).</description>
@@ -100,40 +100,40 @@ The data and clock lines have 120 ohm series resistors, as this can help to abso
     
     <item>
       <title>Rigol DS1054Z digital storage scope - decoding I2S signals</title>
-      <link>https://thetucks.com/posts/rigol-ds1054z-digital-storage-scope-decoding-i2s-signals.html</link>
+      <link>https://thetucks.com/post/rigol-ds1054z-digital-storage-scope-decoding-i2s-signals.html</link>
       <pubDate>Mon, 24 Aug 2015 10:58:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/rigol-ds1054z-digital-storage-scope-decoding-i2s-signals.html</guid>
+      <guid>https://thetucks.com/post/rigol-ds1054z-digital-storage-scope-decoding-i2s-signals.html</guid>
       <description>I recently got one of these great little digital scopes. It has a few serial bus decoding packages (on a try-before-buy basis). You get 36 hours to play with them. Unfortunately they don&amp;rsquo;t include I2S bus decoding. I2S is a bus standard commonly used for transferring digital audio around, for example between ADCs and DACs.
 No matter! You can capture and export full-resolution traces of signals via a USB memory stick.</description>
     </item>
     
     <item>
       <title>Low-noise &#43;/-12v linear power supply for Phono Preamp</title>
-      <link>https://thetucks.com/posts/low-noise-12v-linear-power-supply-for-phono-preamp.html</link>
+      <link>https://thetucks.com/post/low-noise-12v-linear-power-supply-for-phono-preamp.html</link>
       <pubDate>Thu, 09 Jul 2015 14:09:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/low-noise-12v-linear-power-supply-for-phono-preamp.html</guid>
+      <guid>https://thetucks.com/post/low-noise-12v-linear-power-supply-for-phono-preamp.html</guid>
       <description>Ages ago, I built a John Linsley-Hood design of phono preamp, first published in ETI magazine in 1992. This was considerably better than the phono stage in the integrated amp I was using at the time (a Creek CAS4040).
 For a couple of decades I ran this from my bench power supply, so it was definitely time for its own PSU. Rather than etching my own circuit board, nowadays kits are available via eBay that save a lot of that messy work.</description>
     </item>
     
     <item>
       <title>Simple electronic water leak detector</title>
-      <link>https://thetucks.com/posts/simple-electronic-water-leak-detector.html</link>
+      <link>https://thetucks.com/post/simple-electronic-water-leak-detector.html</link>
       <pubDate>Fri, 03 Jul 2015 17:40:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/simple-electronic-water-leak-detector.html</guid>
+      <guid>https://thetucks.com/post/simple-electronic-water-leak-detector.html</guid>
       <description>The following circuit is a very simple water leak detector, which I made 25+ years ago (!!) following my fiancée having a washing machine go wrong and leak all over her apartment.
 The circuit is not ideal - there are better designs out there. It was built with &amp;lsquo;what I had in my scrapbox at the time&amp;rsquo;. It&amp;rsquo;s purely analog, relying on the gain of the Darlington pair to provide reasonable on/off behaviour.</description>
     </item>
     
     <item>
       <title>Simple Optical Compressor for bass guitar - construction</title>
-      <link>https://thetucks.com/posts/simple-optical-compressor-for-bass-guitar-construction.html</link>
+      <link>https://thetucks.com/post/simple-optical-compressor-for-bass-guitar-construction.html</link>
       <pubDate>Thu, 10 Oct 2013 21:24:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/simple-optical-compressor-for-bass-guitar-construction.html</guid>
+      <guid>https://thetucks.com/post/simple-optical-compressor-for-bass-guitar-construction.html</guid>
       <description>An extremely simple yet capable compressor circuit is published by Elliott Sound Products, here: http://sound.westhost.com/project45.htm
 Compressor Mk I I built the circuit exactly as-is (in an Altoids tin).
 Care was taken to optically couple the bulb to the photocell (LDR), using a perspex rod, wrapped in smooth tin-foil. The perspex came from eBay: http://stores.ebay.co.uk/thewholesaleposco2009
@@ -143,40 +143,40 @@ This was put together, and sealed in heatshrink tubing, to make it fairly lightp
     
     <item>
       <title>Sony Vaio VPCEB4L1EWI - Heatsink clean and refit</title>
-      <link>https://thetucks.com/posts/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</link>
+      <link>https://thetucks.com/post/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</link>
       <pubDate>Thu, 11 Jul 2013 19:35:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</guid>
+      <guid>https://thetucks.com/post/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</guid>
       <description>This time, it&amp;rsquo;s a Sony Vaio VPCEB4L1EWI, with i3-380M CPU. About two years old. Running Prime95 stress test, the cores were reaching 85 deg C and the fan was rather noisy.
 1. Strip off the back plate, undoing all the visible screws, taking careful note of where they all go back - there are several different sizes and types. The back plate then snaps off - be careful with the small white lugs on the upper side here.</description>
     </item>
     
     <item>
       <title>Improving an Ashdown Little Giant bass amplifier</title>
-      <link>https://thetucks.com/posts/improving-an-ashdown-little-giant-bass-amplifier.html</link>
+      <link>https://thetucks.com/post/improving-an-ashdown-little-giant-bass-amplifier.html</link>
       <pubDate>Mon, 04 Feb 2013 00:03:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/improving-an-ashdown-little-giant-bass-amplifier.html</guid>
+      <guid>https://thetucks.com/post/improving-an-ashdown-little-giant-bass-amplifier.html</guid>
       <description>I have an Ashdown Little Giant amp. Several reviewers have mentioned that this amp is not at loud as it should be (e.g. here).
 It all depends on whether the output levels coming from your bass are enough to drive the output stage fully. I have an active bass, but even with the input set on max, to get a decent output level I need the output volume control set to around 3 o&amp;rsquo;clock.</description>
     </item>
     
     <item>
       <title>Sony Vaio VPCF13M0E - CPU heatsink clean and re-fit</title>
-      <link>https://thetucks.com/posts/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</link>
+      <link>https://thetucks.com/post/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</link>
       <pubDate>Tue, 30 Oct 2012 23:02:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</guid>
+      <guid>https://thetucks.com/post/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</guid>
       <description>My work laptop (a Sony Vaio VPCF13M0E) had become very noisy, with the fan running full speed as soon as it did any actual work. A bit of googling found that this was a common problem. The original heatsink paste becomes dried up, and doesn&amp;rsquo;t conduct heat well.
 Here&amp;rsquo;s some pictures of the steps I took to fix it. Obviously ONLY ATTEMPT THIS if you know what you&amp;rsquo;re doing, and the machine is out of warranty.</description>
     </item>
     
     <item>
       <title>SATA drives and Acer T135</title>
-      <link>https://thetucks.com/posts/sata-drives-and-acer-t135.html</link>
+      <link>https://thetucks.com/post/sata-drives-and-acer-t135.html</link>
       <pubDate>Sun, 14 Dec 2008 16:46:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/sata-drives-and-acer-t135.html</guid>
+      <guid>https://thetucks.com/post/sata-drives-and-acer-t135.html</guid>
       <description>More on the SATA / Acer T135 saga.
 Having got the PC to &amp;ldquo;see&amp;rdquo; the drive in the BIOS, it should be a simple matter of restoring the system volume onto this drive (or cloning it from the old drive), making it a primary, active partition (so it&amp;rsquo;s bootable into Windows), and off we go, yes?
 So I created 1 large partition for the system and restored onto it. Did this work?</description>
@@ -184,10 +184,10 @@ So I created 1 large partition for the system and restored onto it. Did this wor
     
     <item>
       <title>Acer T135 with and new SATA drives - a snag</title>
-      <link>https://thetucks.com/posts/acer-t135-with-and-new-sata-drives-a-snag.html</link>
+      <link>https://thetucks.com/post/acer-t135-with-and-new-sata-drives-a-snag.html</link>
       <pubDate>Sun, 07 Dec 2008 00:29:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/acer-t135-with-and-new-sata-drives-a-snag.html</guid>
+      <guid>https://thetucks.com/post/acer-t135-with-and-new-sata-drives-a-snag.html</guid>
       <description>Just came across a nasty little snag with SATA disk drives. I thought I&amp;rsquo;d write it up, in case you run into something similar.
 One of our family computers is an Acer Aspire T135, around 3 years old now. The 80GB hard drive is getting rather full and slow. Time for an upgrade.
 Step 1 - check what the existing PC can do. It has a spare SATA connection on the motherboard, so that seems like the best way to go.</description>

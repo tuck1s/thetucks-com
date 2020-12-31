@@ -8,7 +8,6 @@ enableRobotsTXT = true
 Paginate = 12
 copyright = "Steve Tuck"
 
-
 theme = "github.com/theNewDynamic/gohugo-theme-ananke"
 uglyurls = true
 
@@ -23,6 +22,11 @@ uglyurls = true
     weight = 1
     identifier = "Home"
     url = "/"
+
+#
+# Note https://github.com/theNewDynamic/gohugo-theme-ananke/issues/85
+# Need to name directory content/post (not posts) for Ananke theme to display dates of posts
+#
 
 [params]
   facebook = "https://www.facebook.com/tuck1s/"

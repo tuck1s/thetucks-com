@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 15 Mar 2020 20:51:32 +0000</lastBuildDate><atom:link href="https://thetucks.com/tags/computer-hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BBC Micro repairs</title>
-      <link>https://thetucks.com/posts/bbc-micro-repairs.html</link>
+      <link>https://thetucks.com/post/bbc-micro-repairs.html</link>
       <pubDate>Sun, 15 Mar 2020 20:51:32 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/bbc-micro-repairs.html</guid>
+      <guid>https://thetucks.com/post/bbc-micro-repairs.html</guid>
       <description>I seem to have collected a few old BBC Micros - approx 1983 vintage, so coming up to 40 years old.
 Before powering them up, I took the advice of Retroclinic and replaced the power supply X2 capacitors that are known to fail (damaging the power supply in the process). Retroclinic can also be found on eBay.
 Rather than use an old-style CRT, a Samsung LCD TV provides a much steadier picture, using an RGB to SCART lead such as this.</description>
@@ -21,30 +21,30 @@ Rather than use an old-style CRT, a Samsung LCD TV provides a much steadier pict
     
     <item>
       <title>Sony Vaio VPCEB4L1EWI - Heatsink clean and refit</title>
-      <link>https://thetucks.com/posts/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</link>
+      <link>https://thetucks.com/post/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</link>
       <pubDate>Thu, 11 Jul 2013 19:35:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</guid>
+      <guid>https://thetucks.com/post/sony-vaio-vpceb4l1ewi-heatsink-clean-and-refit.html</guid>
       <description>This time, it&amp;rsquo;s a Sony Vaio VPCEB4L1EWI, with i3-380M CPU. About two years old. Running Prime95 stress test, the cores were reaching 85 deg C and the fan was rather noisy.
 1. Strip off the back plate, undoing all the visible screws, taking careful note of where they all go back - there are several different sizes and types. The back plate then snaps off - be careful with the small white lugs on the upper side here.</description>
     </item>
     
     <item>
       <title>Sony Vaio VPCF13M0E - CPU heatsink clean and re-fit</title>
-      <link>https://thetucks.com/posts/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</link>
+      <link>https://thetucks.com/post/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</link>
       <pubDate>Tue, 30 Oct 2012 23:02:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</guid>
+      <guid>https://thetucks.com/post/sony-vaio-vpcf13m0e-cpu-heatsink-clean-and-re-fit.html</guid>
       <description>My work laptop (a Sony Vaio VPCF13M0E) had become very noisy, with the fan running full speed as soon as it did any actual work. A bit of googling found that this was a common problem. The original heatsink paste becomes dried up, and doesn&amp;rsquo;t conduct heat well.
 Here&amp;rsquo;s some pictures of the steps I took to fix it. Obviously ONLY ATTEMPT THIS if you know what you&amp;rsquo;re doing, and the machine is out of warranty.</description>
     </item>
     
     <item>
       <title>SATA drives and Acer T135</title>
-      <link>https://thetucks.com/posts/sata-drives-and-acer-t135.html</link>
+      <link>https://thetucks.com/post/sata-drives-and-acer-t135.html</link>
       <pubDate>Sun, 14 Dec 2008 16:46:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/sata-drives-and-acer-t135.html</guid>
+      <guid>https://thetucks.com/post/sata-drives-and-acer-t135.html</guid>
       <description>More on the SATA / Acer T135 saga.
 Having got the PC to &amp;ldquo;see&amp;rdquo; the drive in the BIOS, it should be a simple matter of restoring the system volume onto this drive (or cloning it from the old drive), making it a primary, active partition (so it&amp;rsquo;s bootable into Windows), and off we go, yes?
 So I created 1 large partition for the system and restored onto it. Did this work?</description>
@@ -52,10 +52,10 @@ So I created 1 large partition for the system and restored onto it. Did this wor
     
     <item>
       <title>Acer T135 with and new SATA drives - a snag</title>
-      <link>https://thetucks.com/posts/acer-t135-with-and-new-sata-drives-a-snag.html</link>
+      <link>https://thetucks.com/post/acer-t135-with-and-new-sata-drives-a-snag.html</link>
       <pubDate>Sun, 07 Dec 2008 00:29:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/acer-t135-with-and-new-sata-drives-a-snag.html</guid>
+      <guid>https://thetucks.com/post/acer-t135-with-and-new-sata-drives-a-snag.html</guid>
       <description>Just came across a nasty little snag with SATA disk drives. I thought I&amp;rsquo;d write it up, in case you run into something similar.
 One of our family computers is an Acer Aspire T135, around 3 years old now. The 80GB hard drive is getting rather full and slow. Time for an upgrade.
 Step 1 - check what the existing PC can do. It has a spare SATA connection on the motherboard, so that seems like the best way to go.</description>

@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 12 Oct 2016 16:19:00 +0000</lastBuildDate><atom:link href="https://thetucks.com/tags/analog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shure wireless in-ear monitoring system</title>
-      <link>https://thetucks.com/posts/shure-wireless-in-ear-monitoring-system.html</link>
+      <link>https://thetucks.com/post/shure-wireless-in-ear-monitoring-system.html</link>
       <pubDate>Wed, 12 Oct 2016 16:19:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/shure-wireless-in-ear-monitoring-system.html</guid>
+      <guid>https://thetucks.com/post/shure-wireless-in-ear-monitoring-system.html</guid>
       <description>A friend lent me their Shure PSM300 P3T in-ear monitoring system today. This is a top-of-the-line piece of kit for weekend-warrior type bands, costing over £600 for just one monitor mix.
 http://www.shure.com/americas/products/personal-monitor-systems/psm-300-stereo-personal-monitor-system/p3t-half-rack-single-channel-wireless-transmitter
 Turns out that the actual RF signal being transmitted is straightforward analog FM. A £10 USB TV stick and the free SDR# software http://www.rtl-sdr.com/rtl-sdr-quick-start-guide/ can decode the signal and play it out of the sound card output in stereo.</description>
@@ -21,10 +21,10 @@ Turns out that the actual RF signal being transmitted is straightforward analog 
     
     <item>
       <title>Low-noise &#43;/-12v linear power supply for Phono Preamp</title>
-      <link>https://thetucks.com/posts/low-noise-12v-linear-power-supply-for-phono-preamp.html</link>
+      <link>https://thetucks.com/post/low-noise-12v-linear-power-supply-for-phono-preamp.html</link>
       <pubDate>Thu, 09 Jul 2015 14:09:00 +0000</pubDate>
       
-      <guid>https://thetucks.com/posts/low-noise-12v-linear-power-supply-for-phono-preamp.html</guid>
+      <guid>https://thetucks.com/post/low-noise-12v-linear-power-supply-for-phono-preamp.html</guid>
       <description>Ages ago, I built a John Linsley-Hood design of phono preamp, first published in ETI magazine in 1992. This was considerably better than the phono stage in the integrated amp I was using at the time (a Creek CAS4040).
 For a couple of decades I ran this from my bench power supply, so it was definitely time for its own PSU. Rather than etching my own circuit board, nowadays kits are available via eBay that save a lot of that messy work.</description>
     </item>

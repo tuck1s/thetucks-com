@@ -1,4 +1,4 @@
-baseURL = "https://www.thetucks.com"
+baseURL = "https://thetucks.com"
 languageCode = "en-uk"
 title = "A menagerie of technical peccadiloes"
 author = "Steve Tuck"
@@ -6,14 +6,10 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 enableRobotsTXT = true
 Paginate = 12
+copyright = "Steve Tuck"
 
-# theme = "github.com/tetsuyainfra/blackburn"
-# theme = "github.com/janraasch/hugo-bearblog"
-# tried all these and didn't like them
-# theme = "github.com/wangchucheng/hugo-eureka"
+
 theme = "github.com/theNewDynamic/gohugo-theme-ananke"
-# theme = "github.com/siegerts/hugo-theme-basic"
-# theme = "github.com/victoriadrake/hugo-theme-introduction"
 uglyurls = true
 
 [indexes]

@@ -1,6 +1,6 @@
 baseURL = "https://thetucks.com"
 languageCode = "en-uk"
-title = "A menagerie of technical peccadiloes"
+title = "A menagerie of technical peccadillos"
 author = "Steve Tuck"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"

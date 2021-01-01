@@ -11,7 +11,7 @@ hugo server
 
 ## Build
 
- The html is generated using [Hugo](https://gohugo.io/) back into the '/docs' folder for serving via [Github Pages](https://pages.github.com/).
+ The html is generated using [Hugo](https://gohugo.io/) back into the `/docs` folder for serving via [Github Pages](https://pages.github.com/).
 
 ```
 cd source

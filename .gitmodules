@@ -4,3 +4,9 @@
 [submodule "source/themes/gohugo-theme-ananke-mod"]
 	path = source/themes/gohugo-theme-ananke-mod
 	url = https://github.com/tuck1s/gohugo-theme-ananke-mod
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "source/themes/ananke"]
+	path = source/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

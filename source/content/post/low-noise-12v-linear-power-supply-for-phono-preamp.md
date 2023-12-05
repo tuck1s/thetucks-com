@@ -9,7 +9,7 @@ Ages ago, I built a John Linsley-Hood design of phono preamp, first published in
 
 For a couple of decades I ran this from my bench power supply, so it was definitely time for its own PSU.  Rather than etching my own circuit board, nowadays kits are available via eBay that save a lot of that messy work.  I wanted something based on the LM317 / LM337 regulators, as they are known to have superior noise performance and regulation compared to the standard 7812 / 7912 family.
 
-I started with [this](http://www.ebay.co.uk/itm/131510744642) kit.  Unpacking, you have a bag of bits and a very nice looking double-sided, through-hole-plated, silk-screen-printed PCB - way better than you can make yourself.  And the total price of the kit is less than you'd pay from a regular supplier for the parts.  The large electrolytic caps are Sanyo branded, and look genuine to me.
+I started with an eBay kit.  Unpacking, you have a bag of bits and a very nice looking double-sided, through-hole-plated, silk-screen-printed PCB - way better than you can make yourself.  And the total price of the kit is less than you'd pay from a regular supplier for the parts.  The large electrolytic caps are Sanyo branded, and look genuine to me.
 
 ![](img/P1030890.jpg)
 
@@ -17,7 +17,7 @@ Here's a view of the PCB sides:
 
 ![](img/P1030891.jpg)
 
-![](img/P1030892.jpg)]
+![](img/P1030892.jpg)
 
 The negative regulator is branded "On" which is On Semiconductor, formerly Motorola.
 

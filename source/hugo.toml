@@ -1,5 +1,5 @@
 baseURL = "https://thetucks.com"
-languageCode = "en-uk"
+languageCode = "en"
 title = "A menagerie of technical peccadillos"
 author = "Steve Tuck"
 DefaultContentLanguage = "en"
@@ -8,8 +8,9 @@ enableRobotsTXT = true
 Paginate = 12
 copyright = "Steve Tuck"
 
-theme = "gohugo-theme-ananke-mod"
-uglyurls = true
+theme = "ananke"
+#uglyurls = true
+#canonifyURLs = true
 
 [indexes]
   tag = "tags"
@@ -23,20 +24,15 @@ uglyurls = true
     identifier = "Home"
     url = "/"
 
-#
-# Note https://github.com/theNewDynamic/gohugo-theme-ananke/issues/85
-# Need to name directory content/post (not posts) for Ananke theme to display dates of posts
-#
-
 [params]
   facebook = "https://www.facebook.com/tuck1s/"
   twitter = "https://www.twitter.com/tuck1s/"
   linkedin = "https://www.linkedin.com/in/steventuck/"
   github = "https://www.github.com/tuck1s/"
   stackoverflow = "https://stackoverflow.com/users/8545455/steve"
-  featured_image = "/beeb.png"
   favicon = "/favicon.ico"
 
   background_color_class = "bg-dark-gray"
   cover_dimming_class = "bg-black-40"
   env = "production" # needed for robots.txt enabled
+  site_logo = "/beeb.png"

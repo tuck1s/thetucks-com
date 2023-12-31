@@ -6,7 +6,7 @@ theme:
 author: Steve Tuck
 DefaultContentLanguage: en
 SectionPagesMenu: main
-# googleAnalytics:
+googleAnalytics: G-C2QYLMPR5V
 enableRobotsTXT: true
 Paginate: 12
 copyright: Steve Tuck

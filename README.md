@@ -1,19 +1,24 @@
-# thetucks.com static site
+# thetucks.com static site (updated Dec 2023)
 
-## Preview
+[![Deploy Hugo site to Pages](https://github.com/tuck1s/quickstart/actions/workflows/hugo.yaml/badge.svg)](https://github.com/tuck1s/quickstart/actions/workflows/hugo.yaml)
 
-The markdown files are in folder `source`.
+## Structure
 
+This enables standard [Ananke theme](https://github.com/theNewDynamic/gohugo-theme-ananke) to be used.
 ```
-cd source
-hugo server
+content
+  post
+    postname
+      index.md
+      img
+        img1.jpg
+        : etc
 ```
 
-## Build
+## Local development
 
- The html is generated using [Hugo](https://gohugo.io/) back into the `/docs` folder for serving via [Github Pages](https://pages.github.com/).
+In project folder, run `hugo server` and open locally in browser.
 
-```
-cd source
-hugo -D --destination ../docs
-```
+## Production build
+
+Build on checkin is automatically done using a standard Github Action for Hugo sites.

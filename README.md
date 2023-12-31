@@ -1,6 +1,6 @@
 # thetucks.com static site (updated Dec 2023)
 
-[![Deploy Hugo site to Pages](https://github.com/tuck1s/quickstart/actions/workflows/hugo.yaml/badge.svg)](https://github.com/tuck1s/quickstart/actions/workflows/hugo.yaml)
+[![Deploy Hugo site to Pages](https://github.com/tuck1s/thetucks.com/actions/workflows/hugo.yaml/badge.svg)](https://github.com/tuck1s/quickstart/actions/workflows/hugo.yaml)
 
 ## Structure
 

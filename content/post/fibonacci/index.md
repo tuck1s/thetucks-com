@@ -134,3 +134,37 @@ Darwin SteveT-M3.local 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:54:51 
 ```
 
 Here are the final [fib.py](./fib.py) and [fib.sh](./fib.sh) programs.
+
+### What next?
+
+Go and Rust languages have reputations for being fast (and faster). Both have arbitrary-precision arithmetic packages.
+
+Go
+```
+time ./fib >/dev/null
+./fib > /dev/null  0.07s user 0.01s system 115% cpu 0.071 total
+```
+
+Rust:
+```
+ time ./target/release/rust_fib >/dev/null
+./target/release/rust_fib > /dev/null  0.08s user 0.00s system 97% cpu 0.083 total
+```
+
+Increasing the iterations to 2 million:
+
+Go:
+```
+go build
+time ./go_fib >/dev/null
+./go_fib > /dev/null  19.50s user 2.93s system 122% cpu 18.363 total
+```
+
+Rust:
+```
+cargo build --release
+time ./target/release/rust_fib >/dev/null
+./target/release/rust_fib > /dev/null  27.81s user 0.02s system 99% cpu 27.866 total
+```
+
+Both [go](go_fib/fib.go) and [rust](rust_fib/src/main.rs) programs produce [identical](go_fib/go_fib_2M.txt) [output](rust_fib/rust_fib_2M.txt). Fib(2000000) is over 400000 digits long.

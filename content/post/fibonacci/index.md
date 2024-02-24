@@ -94,7 +94,7 @@ ValueError: Exceeds the limit (4300 digits) for integer string conversion; use s
 
 Changing this setting to 30000 allows the program to run.
 
-### What makes Python slower than bc?
+### What makes Python slower or faster than bc?
 
 As the numbers become longer, both languages spend more time serializing them to strings. This is unsurprising when fib(100000) is 20899 digits long! In particular Python `print( )` output appears to be costly. Python is also a much larger binary program to load and start (on my Pi 5, python3 = 5MB vs bc = 75KB).
 
@@ -111,3 +111,15 @@ real    0m0.589s
 user    0m0.580s
 sys     0m0.008s
 ```
+
+### On a more powerful computer
+
+On a Macbook Pro M3, 100000 iterations are very fast on both:
+
+```
+ time ./fib.sh >/dev/null ; time ./fib.py >/dev/null
+./fib.sh > /dev/null  0.32s user 0.01s system 99% cpu 0.334 total
+./fib.py > /dev/null  0.11s user 0.01s system 79% cpu 0.146 total
+```
+
+Here are the final [fib.py](./fib.py) and [fib.sh](./fib.sh) programs.

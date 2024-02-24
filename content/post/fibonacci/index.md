@@ -4,7 +4,7 @@ date: 2024-02-24T11:50:03Z
 tags: ['arithmetic', 'linux', 'raspberry pi']
 
 ---
-Linux includes a bench calculator called [`bc`](https://linux.die.net/man/1/bc), which can achieve interesting arbitrary-precision results in very few lines of "code". For ease, this can be embedded in a [here document](https://linux.die.net/abs-guide/here-docs.html):
+Linux includes a bench calculator called [`bc`](https://linux.die.net/man/1/bc), which can achieve remarkable arbitrary-precision results in very few lines of code. For ease of running, code can be embedded in a [here document](https://linux.die.net/abs-guide/here-docs.html):
 
 _fib.sh_
 ```bash
@@ -16,7 +16,7 @@ end
 
 The `BC_LINE_LENGTH` environment variable is used to prevent long lines from being split with a `\` continuation character.
 
-The `-q` flag suppresses the `>>>` welcome prompt.
+The `-q` flag suppresses the welcome prompt.
 
 The `0;1;` bit just prints the first two results. The special variable `last` will have the value `1` after this.
 
@@ -49,7 +49,7 @@ sys     0m0.019s
 
 `bc` has many of the features of larger programming languages such as loops and functions.
 
-Here's the same routine in Python:
+Here's the same routine in Python, producing identical output, because Python integers are also arbitrary precision:
 
 ```python
 #!/usr/bin/env python3
@@ -64,7 +64,7 @@ for i in range(1,1000):
     print(last)
 ```
 
-This produces identical output, because Python integers are also arbitrary precision. Python is significantly slower (in this case, Python 3.11.2 on a Raspberry Pi 5):
+Python is significantly slower (Python 3.11.2 on a Raspberry Pi 5):
 
 ```
 real    0m0.069s
@@ -86,7 +86,7 @@ user    0m12.391s
 sys     0m0.004s
 ```
 
-On longer runs such as 100 000, Python gives an error:
+On longer runs such as 100000, Python gives an error:
 
 ```
 ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit
@@ -94,9 +94,11 @@ ValueError: Exceeds the limit (4300 digits) for integer string conversion; use s
 
 Changing this setting to 30000 allows the program to run.
 
-Both languages must spend less time calculating the numbers, and more time serializing the huge integers to strings - not suprrising whn the final result is 20899 digits long! In particular Python `print( )` output is costly.
+## What makes Python slower than bc?
 
-Changing both programs to only print the first two and the final number, shows an interesting result: Python is _faster_ over longer runs.
+As the numbers become longer, both languages spend less time calculating, and more time serializing them to strings. This is not suprrising when fib(100000) is 20899 digits long! In particular Python `print( )` output appears to be costly.
+
+Changing both programs to only print 0, 1 and the final number shows an interesting result: Python becomes _significantly faster_ over longer iterations:
 
 ```
 time ./fib.sh >/dev/null ; time ./fib.py >/dev/null

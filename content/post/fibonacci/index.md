@@ -1,5 +1,5 @@
 ---
-title: 'Generating the Fibonacci sequence on a Raspberry Pi'
+title: 'Generating the Fibonacci sequence on a Raspberry Pi 5'
 date: 2024-02-24T11:50:03Z
 tags: ['arithmetic', 'linux', 'raspberry pi']
 
@@ -64,7 +64,7 @@ for i in range(1,1000):
     print(last)
 ```
 
-This produces identical output, because Python integers are also arbitrary precision. Python is significantly slower:
+This produces identical output, because Python integers are also arbitrary precision. Python is significantly slower (in this case, Python 3.11.2 on a Raspberry Pi 5):
 
 ```
 real    0m0.069s
@@ -72,3 +72,38 @@ user    0m0.051s
 sys     0m0.016s
 ```
 
+On longer runs (such as 10 000 iterations) the difference is even clearer. Here we direct console output to /dev/null to reduce the effect of printing/scrolling the output.
+
+```
+ time ./fib.sh >/dev/null ; time ./fib.py >/dev/null
+
+real    0m0.252s
+user    0m0.243s
+sys     0m0.008s
+
+real    0m12.409s
+user    0m12.391s
+sys     0m0.004s
+```
+
+On longer runs such as 100 000, Python gives an error:
+
+```
+ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit
+```
+
+Changing this setting to 30000, and changing both programs to only print the first two and the final number, shows an interesting result: Python is _faster_ over longer runs.
+
+```
+time ./fib.sh >/dev/null ; time ./fib.py >/dev/null
+
+real    0m2.488s
+user    0m2.478s
+sys     0m0.008s
+
+real    0m0.589s
+user    0m0.580s
+sys     0m0.008s
+```
+
+Both programs spend proportionally less time calculating the numbers, and more time serializing the huge integers to strings. In particular Python spends a lot of time if the `print( )` output is included.

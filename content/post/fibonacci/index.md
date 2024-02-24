@@ -94,9 +94,9 @@ ValueError: Exceeds the limit (4300 digits) for integer string conversion; use s
 
 Changing this setting to 30000 allows the program to run.
 
-## What makes Python slower than bc?
+### What makes Python slower than bc?
 
-As the numbers become longer, both languages spend less time calculating, and more time serializing them to strings. This is not suprrising when fib(100000) is 20899 digits long! In particular Python `print( )` output appears to be costly.
+As the numbers become longer, both languages spend more time serializing them to strings. This is not suprrising when fib(100000) is 20899 digits long! In particular Python `print( )` output appears to be costly.
 
 Changing both programs to only print 0, 1 and the final number shows an interesting result: Python becomes _significantly faster_ over longer iterations:
 

@@ -106,4 +106,4 @@ user    0m0.580s
 sys     0m0.008s
 ```
 
-Both programs spend proportionally less time calculating the numbers, and more time serializing the huge integers to strings. In particular Python spends a lot of time if the `print( )` output is included.
+Both programs spend proportionally less time calculating the numbers, and more time serializing the huge integers to strings - not suprrising whn the final result is 20899 digits long! In particular Python `print( )` output is costly.

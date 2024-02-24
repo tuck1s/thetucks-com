@@ -96,7 +96,7 @@ Changing this setting to 30000 allows the program to run.
 
 ### What makes Python slower than bc?
 
-As the numbers become longer, both languages spend more time serializing them to strings. This is not suprrising when fib(100000) is 20899 digits long! In particular Python `print( )` output appears to be costly.
+As the numbers become longer, both languages spend more time serializing them to strings. This is unsurprising when fib(100000) is 20899 digits long! In particular Python `print( )` output appears to be costly. Python is also a much larger binary program to load and start (on my Pi 5, python3 = 5MB vs bc = 75KB).
 
 Changing both programs to only print 0, 1 and the final number shows an interesting result: Python becomes _significantly faster_ over longer iterations:
 

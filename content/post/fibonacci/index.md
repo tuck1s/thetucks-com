@@ -92,7 +92,11 @@ On longer runs such as 100 000, Python gives an error:
 ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit
 ```
 
-Changing this setting to 30000, and changing both programs to only print the first two and the final number, shows an interesting result: Python is _faster_ over longer runs.
+Changing this setting to 30000 allows the program to run.
+
+Both languages must spend less time calculating the numbers, and more time serializing the huge integers to strings - not suprrising whn the final result is 20899 digits long! In particular Python `print( )` output is costly.
+
+Changing both programs to only print the first two and the final number, shows an interesting result: Python is _faster_ over longer runs.
 
 ```
 time ./fib.sh >/dev/null ; time ./fib.py >/dev/null
@@ -106,4 +110,3 @@ user    0m0.580s
 sys     0m0.008s
 ```
 
-Both programs spend proportionally less time calculating the numbers, and more time serializing the huge integers to strings - not suprrising whn the final result is 20899 digits long! In particular Python `print( )` output is costly.

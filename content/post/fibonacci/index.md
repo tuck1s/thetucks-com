@@ -112,14 +112,25 @@ user    0m0.580s
 sys     0m0.008s
 ```
 
+More details on the Pi 5 system:
+```
+uname -a
+Linux pi5 6.1.0-rpi4-rpi-v8 #1 SMP PREEMPT Debian 1:6.1.54-1+rpt2 (2023-10-05) aarch64 GNU/Linux
+```
+
 ### On a more powerful computer
 
-On a Macbook Pro M3, 100000 iterations are very fast on both:
+On a Macbook Pro M3, 100000 iterations are very fast (5x and 7x faster than the Pi 5).
 
 ```
- time ./fib.sh >/dev/null ; time ./fib.py >/dev/null
+time ./fib.sh >/dev/null ; time ./fib.py >/dev/null
 ./fib.sh > /dev/null  0.32s user 0.01s system 99% cpu 0.334 total
 ./fib.py > /dev/null  0.11s user 0.01s system 79% cpu 0.146 total
+```
+
+```
+uname -a
+Darwin SteveT-M3.local 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:54:51 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T6030 arm64
 ```
 
 Here are the final [fib.py](./fib.py) and [fib.sh](./fib.sh) programs.

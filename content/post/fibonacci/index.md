@@ -168,3 +168,51 @@ time ./target/release/rust_fib >/dev/null
 ```
 
 Both [go](go_fib/fib.go) and [rust](rust_fib/src/main.rs) programs produce [identical](go_fib/go_fib_2M.txt) [output](rust_fib/rust_fib_2M.txt). Fib(2000000) is over 400000 digits long.
+
+### The Rustacean claws it back
+
+I just realised I had x64 binaries left over on my system, as I migrated it from an older machine.
+
+Now got the arm64 binaries, and checking the built binary is also arm64:
+
+```
+cargo build --release
+    Finished release [optimized] target(s) in 0.00s
+
+% time ./target/release/rust_fib >rust_fib_2M_new.txt
+./target/release/rust_fib > rust_fib_2M_new.txt  19.74s user 0.01s system 98% cpu 19.966 total
+
+% file ./target/release/rust_fib
+./target/release/rust_fib: Mach-O 64-bit executable arm64
+```
+
+With an improvement to the inner loop from [r/rust](https://www.reddit.com/r/rust/comments/1az4tfn/comment/krzgtw1/?utm_source=share&utm_medium=web2x&context=3), Rust is the front-runner.
+
+```
+time ./target/release/rust_fib >/dev/null
+./target/release/rust_fib > /dev/null  16.85s user 0.01s system 99% cpu 16.885 total
+```
+
+Toolchain:
+```
+cargo 1.76.0 (c84b36747 2024-01-18)
+rustc 1.76.0 (07dca489a 2024-02-04)
+```
+
+### Going further
+
+A similar inner-loop improvement from [r/golang](https://www.reddit.com/r/golang/comments/1az4r01/fibonacci_sequences_using_bc_python_go_and_rust/) reclaims the top spot:
+
+```
+go build -ldflags "-s -w"
+
+time ./go_fib2 >go_fib2_2M.txt
+./go_fib2 > go_fib2_2M.txt  5.79s user 0.03s system 97% cpu 5.996 total
+```
+
+This version is [go_fib2](go_fib2/fib2.go).
+
+Toolchain:
+```
+go version go1.22.0 darwin/arm64
+```

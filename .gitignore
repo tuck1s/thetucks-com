@@ -1,7 +1,10 @@
 .DS_Store
 .vscode/*
 .hugo_build.lock
-content/post/fibonacci/rust_fib/target/**
 content/post/fibonacci/go_fib/go_fib
+content/post/fibonacci/go_fib2/go_fib2
+content/post/fibonacci/go_fib2/go_fib2_2M.txt
+
+content/post/fibonacci/rust_fib/target/**
 content/post/fibonacci/rust_fib/Cargo.lock
 content/post/fibonacci/rust_fib/Cargo.toml

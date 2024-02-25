@@ -12,9 +12,8 @@ fn main() {
     println!("{}", last);
 
     for _ in 1..N {
-        let g = last.clone();
-        last += &f;
-        f = g;
+        f += &last;
+        std::mem::swap(&mut last, &mut f);
     }
 
     println!("{}", last);

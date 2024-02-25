@@ -18,7 +18,9 @@ fn fib(n: u32) -> (BigUint, BigUint) {
         if n % 2 == 0 {
             (c, d)
         } else {
-            (d.clone(), d + c)
+            // Improvement from https://www.reddit.com/r/rust/comments/1az4tfn/comment/ks3j165/?utm_source=share&utm_medium=web2x&context=3
+            let e = c + &d;
+            (d, e)
         }
     }
 }

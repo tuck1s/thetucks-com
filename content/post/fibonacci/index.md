@@ -235,6 +235,35 @@ time ./target/release/rust_fib3 >/dev/null
 ./target/release/rust_fib3 > /dev/null  0.37s user 0.00s system 73% cpu 0.506 total
 ```
 
+```
+ time ./go_fib3 >/dev/null
+./go_fib3 > /dev/null  0.09s user 0.01s system 57% cpu 0.178 total
+```
+
+### Finally
+
+Starting from the C# version on [Nayuki's page](https://www.nayuki.io/page/fast-fibonacci-algorithms) made further gains possible.
+
+* [go_fib4](go_fib4/fib4.go)
+
+* [rust_fib4](rust_fib4/src/main.rs)
+
+Printing the number to the console in ASCII was dominating the run time, even when output was directed to `/dev/null`, so these versions print the number's length (in bits) instead.
+
+To show up speed differences, these final versions calculate the 100 millionth number.
+
+```
+time ./go_fib4
+69424191
+./go_fib4  11.10s user 0.03s system 99% cpu 11.205 total
+```
+
+```
+time ./target/release/rust_fib4
+69424191
+./target/release/rust_fib4  11.54s user 0.04s system 98% cpu 11.737 total
+```
+
 ### Further reading
 
 1. [Nayuki](https://www.nayuki.io/page/fast-fibonacci-algorithms)'s page on fast Fibonacci algorithms, referred to via the Reddit reply linked above.

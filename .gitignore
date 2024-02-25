@@ -2,9 +2,18 @@
 .vscode/*
 .hugo_build.lock
 content/post/fibonacci/go_fib/go_fib
+
 content/post/fibonacci/go_fib2/go_fib2
 content/post/fibonacci/go_fib2/go_fib2_2M.txt
 
+content/post/fibonacci/go_fib3/go_fib3
+content/post/fibonacci/go_fib3/go_fib3_2M.txt
+
 content/post/fibonacci/rust_fib/target/**
-content/post/fibonacci/rust_fib/Cargo.lock
-content/post/fibonacci/rust_fib/Cargo.toml
+content/post/fibonacci/rust_fib/Cargo.*
+
+content/post/fibonacci/rust_fib3/rust_fib3_2M.txt
+content/post/fibonacci/rust_fib3/target/**
+content/post/fibonacci/rust_fib3/Cargo.*
+
+content/post/fibonacci/.vscode/settings.json

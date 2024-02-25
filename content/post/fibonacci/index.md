@@ -216,3 +216,25 @@ Toolchain:
 ```
 go version go1.22.0 darwin/arm64
 ```
+
+### Improve the algorithm!
+
+[This post](https://www.reddit.com/r/golang/comments/1az4r01/comment/ks0pj2s/?utm_source=share&utm_medium=web2x&context=3) uses the much better "fast doubling" algorithm in Go (and importantly, gives the same output).
+
+This version is [go_fib3](go_fib3/fib3.go) and is amazingly fast on large numbers - the paper below states Θ(log n) complexity.
+
+```
+ time ./go_fib3 >/dev/null
+./go_fib3 > /dev/null  0.09s user 0.01s system 57% cpu 0.178 total
+```
+
+Here's a naive translation of this algorithm into Rust: [rust_fib3](rust_fib3/src/main.rs), currently slower than Go.
+
+```
+time ./target/release/rust_fib3 >/dev/null
+./target/release/rust_fib3 > /dev/null  0.37s user 0.00s system 73% cpu 0.506 total
+```
+
+### Further reading
+
+1. [Nayuki](https://www.nayuki.io/page/fast-fibonacci-algorithms)'s page on fast Fibonacci algorithms, referred to via the Reddit reply linked above.

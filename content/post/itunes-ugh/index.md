@@ -63,23 +63,24 @@ Frankly this is a [can of worms](https://discussions.apple.com/thread/253590789?
 
 I found an [.itl data editor](https://github.com/CDEngineer/iTunesDataEditor) out there but this seemed risky.
 
-IN the end, I abandoned library patch-up work, and did:
- 
- * a complete fresh `rsync` of the Music  directory, including the iTunes library files, then
- * _renamed the new NAS_ to have the exact same network name as the old one. This means you _also_ have torename the old one first, if you want both to be reachable on the network at the same time.
+In the end, I abandoned library patch-up work, and did:
 
-Once done, iTunes can see all its files exactly where it expects them to be.
+* a complete fresh `rsync` of the Music  directory, including the iTunes library files, then
+* _renamed the new NAS_ to have the exact same network name as the old one. This means you _also_ have to rename the old one first, if you want both to be reachable on the network at the same time.
+* Shut down and restart all client machines, to ensure they see the new NAS.
 
-In the meantime, partly unsuccessful syncs between iTunes and iPhone meant that was also confused. Fortunately:
+Once done, iTunes can see all its files exactly where it expects them to be, and all is well.
 
-* You can delete all songs from the phone. This can be done in a single operation from Settings / iPhone Storage / Music menu
+Partly unsuccessful syncs between iTunes and iPhone meant the phone was in a somewhat confused state. The solution was quite easy:
+
+* Delete all songs from the phone. This can be done in a single operation from Settings / iPhone Storage / Music menu.
+
+  ![](img/iPhone.jpeg)
 
 * In the Windows iTunes app, under Edit / Preferences / Devices, there's a "[reset sync history](https://discussions.apple.com/thread/2031503?sortBy=best)" option.
 
-I found this was enough to get the library to sync across to the phone again, although it took a couple of tries to get every file across.
-
-![](img/iPhone.jpeg)
+I found this enabled the library to sync across to the phone again, although it took a couple of tries to get every file across.
 
 ## Paint Shop Pro 9
 
-This ancient app was also complaining on startup, until I switched the new NAS name to be the same as the old. Then it worked OK again.
+This ancient, yet useful app was also complaining on startup, until I switched the new NAS name to be the same as the old; then it worked OK again.

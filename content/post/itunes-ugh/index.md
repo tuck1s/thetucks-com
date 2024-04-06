@@ -77,7 +77,7 @@ Once done, iTunes can see all its files exactly where it expects them to be.
 
 Partly unsuccessful syncs between iTunes and iPhone meant the device was in a somewhat confused state. The solution was quite easy:
 
-* Delete all songs from the phone. This can be done in a single operation from Settings / iPhone Storage / Music menu.
+* Delete all songs from the phone. This can be done in a single operation from Settings / iPhone Storage / Music menu. Swipe left and use the red "-" next to "All Songs" - no need to delete the app itself.
 
   ![](img/iPhone.jpeg)
 

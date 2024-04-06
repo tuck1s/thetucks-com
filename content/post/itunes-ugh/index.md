@@ -34,8 +34,9 @@ rsync -va --exclude "Temporary Items" --exclude "Network Trash Folder" --exclude
 
 `moveit.sh` takes an argument, allowing each share to be moved individually. It can be run repeatedly to move any new data that has arisen since the copy was started. This allowed a "gradual catchup" strategy, with the old NAS continuing as the primary storage while I did lots of testing of the new NAS.
 
-## File ow
-The first "gotcha" was that rsync marks the copied files as owned by the `root`, i.e. the current logged-in user with `sudo` permissions.
+## File ownership
+
+The first "gotcha" was that rsync marks the copied files as owned by `root`, i.e. the current logged-in user with `sudo` permissions.
 
 It was therefore necessary to change file ownership afterwards for each share, e.g.
 
@@ -46,32 +47,35 @@ sudo chown -R Barney:users *
 
 This process completed quickly on the new, more powerful NAS.
 
-## Windows
-Each of the Windows 10 machines uses a NAS share as their primary area for "My Documents", "My Pictures" etc. This is set using the Windows Properties / File Location dialog. This went smoothly for the majority of applications, with notable exceptions: iTunes and Paint Shop Pro 9.
+## Windows clients
+
+Each of the Windows 10 client machines uses a NAS share as their primary area for "My Documents", "My Pictures" etc. This is set using the Windows Explore, R-click / Properties / File Location dialog. This went smoothly for the majority of applications, with two exceptions: iTunes and Paint Shop Pro 9.
 
 ## iTunes (ugh)
 
 After migration, iTunes could see some, but not all of the music library files! This was a pain, with thousands of songs and multiple playlists. Several of our shares had over 80GB of separately curated music files.
 
-A bit of digging using the "File info" option in iTunes shows that the app remembers the full [UNC path](https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention) to each media file, instead of using relative paths. Ugh!
+A bit of digging using the "File info" option in iTunes shows that the app remembers the full [UNC path](https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention) to each media file, instead of using relative paths. Ugh! That would explain why it can't see all files.
 
 ![](img/itunes.png)
 
- If iTunes can't find the file, it puts the notorious `!` warning and the "Original music file could not be found" [error](https://discussions.apple.com/thread/252291105?sortBy=best). iTunes will offer to try and find the file for you, but this is an arduous task for more than a few files, and you can't see the needles in the haystack.
+ If iTunes can't find the file, it show the notorious `!` warning and [Original music file could not be found error](https://discussions.apple.com/thread/252291105?sortBy=best). iTunes will offer to try and find the file for you, but this is an arduous task for more than a few files, and you can't see how many files you will need to fix, i.e. you can't find the needles in the haystack.
 
-Frankly this is a [can of worms](https://discussions.apple.com/thread/253590789?sortBy=best). iTunes keeps its library in a proprietary, binary-format file `iTunes Library.itl`, in the `Music/iTunes` directory. The similarly named `.xml` file in that folder is there only to give you [false hope](https://youtu.be/14NQIq4SrmY?si=NajP5f0xINSwuNSd&t=62); it's the `.itl` file that iTunes reads and uses.
+Frankly this whole area is a [can of worms](https://discussions.apple.com/thread/253590789?sortBy=best). iTunes keeps its library in a proprietary binary-format file, named  `iTunes Library.itl`, in the `Music/iTunes` directory. The similarly named `.xml` file in that folder is there only to give you [false hope](https://youtu.be/14NQIq4SrmY?si=NajP5f0xINSwuNSd&t=62); it's the `.itl` file that iTunes reads and uses.
 
 I found an [.itl data editor](https://github.com/CDEngineer/iTunesDataEditor) out there but this seemed risky.
 
 In the end, I abandoned library patch-up work, and did:
 
 * a complete fresh `rsync` of the Music  directory, including the iTunes library files, then
-* _renamed the new NAS_ to have the exact same network name as the old one. This means you _also_ have to rename the old one first, if you want both to be reachable on the network at the same time.
-* Shut down and restart all client machines, to ensure they see the new NAS.
+* _renamed the new NAS_ to have the exact same UNC path (network name) as the old one. This means you _also_ have to rename the old one first, if you want both to be reachable on the network at the same time.
+* For good measure, shut down and restart all client machines, to ensure they are using the new NAS.
 
-Once done, iTunes can see all its files exactly where it expects them to be, and all is well.
+Once done, iTunes can see all its files exactly where it expects them to be.
 
-Partly unsuccessful syncs between iTunes and iPhone meant the phone was in a somewhat confused state. The solution was quite easy:
+### Getting music onto a device
+
+Partly unsuccessful syncs between iTunes and iPhone meant the device was in a somewhat confused state. The solution was quite easy:
 
 * Delete all songs from the phone. This can be done in a single operation from Settings / iPhone Storage / Music menu.
 
